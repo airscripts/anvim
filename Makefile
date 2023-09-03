@@ -17,6 +17,10 @@ backup:
 install:
 	sh ./scripts/install.sh
 
+.PHONY: fonts
+fonts:
+	sh ./scripts/fonts.sh
+
 .PHONY: restore
 restore:
 	sh ./scripts/restore.sh
