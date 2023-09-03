@@ -1,5 +1,11 @@
-# anvim
-An extensible and development ready Neovim configuration.
+<h1 align="center">
+  <img src="https://raw.githubusercontent.com/airscripts/anvim/main/assets/images/logo.png" width="50" alt="Logo"/><br/>
+  anvim
+</h1>
+
+<p align="center">
+  An extensible and development ready Neovim configuration.
+</p>
 
 ## Contents
 - [Installation](#installation)
