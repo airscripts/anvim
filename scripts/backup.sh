@@ -12,4 +12,4 @@ if [[ -d "$ANVIM" ]]
     echo "[3/4] Configs not found, backup skipped."
 fi
 
-echo "[4/4] Backup procedure completed successfully!"
+echo "[4/4] Backup process completed successfully!"

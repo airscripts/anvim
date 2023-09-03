@@ -7,4 +7,5 @@ mkdir -p $ANVIM
 
 echo "[3/4] Copying anvim configs..."
 cp -r configs/* $ANVIM
-echo "[4/4] Installation successful!"
+
+echo "[4/4] Installation process completed successfully!"
