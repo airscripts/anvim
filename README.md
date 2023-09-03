@@ -8,6 +8,7 @@
 </p>
 
 ## Contents
+- [Requirements](#requirements)
 - [Installation](#installation)
 - [Usage](#usage)
 - [Resources](#resources)
@@ -15,16 +16,33 @@
 - [Support](#support)
 - [License](#license)
 
+## Requirements
+In order to use anvim you'll need the following:
+- [make](https://www.gnu.org/software/make/): used to run commands;
+- [nvim](https://neovim.io): the actual IDE, required version >=0.8.0;
+- [Nerd Font](https://github.com/ryanoasis/nerd-fonts): a patched font for the icons;
+
 ## Installation
 Follow the steps below to make use of anvim.
 
 Clone this repository:
-```bash
+```sh
 git clone https://github.com/airscripts/anvim.git
 ```
 
+Then inside of your terminal run this command:
+```sh
+make
+```
+
+It will make a backup of your current configuration and install `anvim` on your machine.
+Lastly just run this command and every plugin will be installed without any effort:
+```sh
+nvim
+```
+
 ## Usage
-Just copy the `configs` folder inside your `.config/nvim` folder.
+To use this distro of nvim, just run `nvim` after you've followed the [installation](#installation) section.
 
 ## Resources
 Here you can list some useful resources about this project:
