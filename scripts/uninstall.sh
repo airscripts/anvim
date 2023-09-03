@@ -1,9 +1,9 @@
-#!/bin/bash
+#!/bin/sh
 echo "[1/4] Creating configs variable..."
 export ANVIM=~/.config/nvim
 
 echo "[2/4] Checking if configs are present..."
-if [[ -d "$ANVIM" ]] 
+if [ -d "$ANVIM" ]
   then 
     echo "[3/4] Uninstalling anvim..."
     rm -r $ANVIM
