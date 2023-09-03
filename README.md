@@ -7,6 +7,10 @@
   An extensible and development ready Neovim configuration.
 </p>
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/airscripts/anvim/main/assets/gifs/usage.gif" alt="Usage GIF" />
+</p>
+
 ## Contents
 - [Requirements](#requirements)
 - [Installation](#installation)
