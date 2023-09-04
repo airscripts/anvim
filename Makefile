@@ -28,3 +28,7 @@ restore:
 .PHONY: uninstall
 uninstall:
 	sh ./scripts/uninstall.sh
+
+.PHONY: tests
+tests:
+	bats ./tests
