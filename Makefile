@@ -17,6 +17,10 @@ backup:
 install:
 	sh ./scripts/install.sh
 
+.PHONY: commit
+commit:
+	sh ./scripts/commit.sh
+
 .PHONY: fonts
 fonts:
 	sh ./scripts/fonts.sh

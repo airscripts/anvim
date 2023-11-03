@@ -17,7 +17,6 @@ return {
       providers = {
         "lsp",
         "treesitter",
-        "regex",
       },
 
       filetypes_denylist = {
